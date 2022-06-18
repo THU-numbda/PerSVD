@@ -16,7 +16,7 @@ Programs of PerSVD Algorithm
 
 (2)matlab/PerSVD_test.m is used to test the effectiveness of shifted power iteration. The comparison is between Alg. 1 (basic_rSVD.m)  [2], Alg. 3  (rSVD_fp.m), Alg. 4  (PerSVD_once.m)  and Alg. 5 (PerSVD.m) on Dense1 in size 1000 x 1000.
 
-(3)The singular values computed by eigSVD are in ascending order.
+(3)It should be mentioned that the singular values computed by eigSVD are in ascending order.
 
 ### Reference
 
