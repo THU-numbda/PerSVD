@@ -1,6 +1,6 @@
 function [U, S, V] = basic_rSVD(A, k, p, Omg)
     %s = k/2;
-    s = 0;
+    s = 50;
     [~, n] = size(A);
     l = k+s;
     [Q, ~] = qr(A*Omg, 0);
